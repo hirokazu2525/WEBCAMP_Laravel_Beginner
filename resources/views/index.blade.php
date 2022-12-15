@@ -11,7 +11,7 @@
             </div>
         @endif
         <form action="/login" method="post">
-            @cs
+            @csrf
             email：<input name="email" value="{{ old('email') }}"><br>
             パスワード：<input  name="password" type="password"><br>
             <button>ログインする</button>
