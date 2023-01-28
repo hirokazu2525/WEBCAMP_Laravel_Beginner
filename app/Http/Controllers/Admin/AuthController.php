@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\AdminLoginPostRequest;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;  // ★これが不足している
 
 class AuthController extends Controller
 {
